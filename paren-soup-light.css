@@ -1,9 +1,12 @@
+html, body, .paren-soup {
+    background-color: #f7f7f7;
+}
+
 .paren-soup {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: monospace;
 	color: gray;
-	background-color: #f7f7f7;
-	outline: 1px solid;
+	caret-color: black;
 }
 
 .paren-soup .error-text {
@@ -48,6 +51,7 @@
 	padding: 0px 5px;
 	text-align: right;
 	opacity: 0.7;
+    border-right: 1px solid #ddd;
 }
 
 .paren-soup .content {
@@ -57,7 +61,6 @@
 	white-space: pre;
 	word-wrap: normal;
 	overflow: scroll;
-	border-left: 1px solid #ddd;
 	background-color: white;
 }
 
